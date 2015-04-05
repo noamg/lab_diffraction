@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass heb-article
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -60,8 +60,169 @@
 
 \begin_body
 
-\begin_layout Standard
+\begin_layout Title
+<<<התאבכות
+\end_layout
 
+\begin_layout Author
+דן וקסלר, נועם גביש, בהנחיית <<<
+\end_layout
+
+\begin_layout Abstract
+בלה בלה
+\end_layout
+
+\begin_layout Part*
+רקע תיאורטי
+\end_layout
+
+\begin_layout Section*
+תיאור של אור בתור גל
+\end_layout
+
+\begin_layout Standard
+בלה בלה
+\end_layout
+
+\begin_layout Standard
+נוסחא אקספוננט
+\end_layout
+
+\begin_layout Subsection*
+התאבכות
+\end_layout
+
+\begin_layout Standard
+התאבכות משני מקורות.
+ ציור סינוסים קקה
+\end_layout
+
+\begin_layout Subsection*
+עקיפה, פרנל? פרנהופר!
+\end_layout
+
+\begin_layout Standard
+בלה בלה
+\end_layout
+
+\begin_layout Subsubsection*
+קירוב פרנהופר פוריה
+\end_layout
+
+\begin_layout Standard
+תמונה חרטא ברטא
+\end_layout
+
+\begin_layout Standard
+צפי ניסוי יאנג )
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+סדקים(, הרבה סדקים, דו ממד
+\end_layout
+
+\begin_layout Subsection*
+רקע רלוונטי להולוגרפיה
+\end_layout
+
+\begin_layout Part*
+מערכת הניסוי
+\end_layout
+
+\begin_layout Standard
+כמו שרואים באיור <<<
+\end_layout
+
+\begin_layout Standard
+להביא הרבה חומר מדו"ח אחר ומרקע של המעבדה
+\end_layout
+
+\begin_layout Standard
+כיול של זווית בלאגנים כמו שרואים בנספח לשים גרף רגרסיה
+\end_layout
+
+\begin_layout Standard
+מה אנחנו מודדים - עצמה יחסית מול זווית.
+ 
+\end_layout
+
+\begin_layout Standard
+הגבר - רוויה, רזולוציה של אפסים.
+ טרייד אוף.
+\end_layout
+
+\begin_layout Subsection*
+מערכת הולוגרפיה
+\end_layout
+
+\begin_layout Part*
+תוצאות
+\end_layout
+
+\begin_layout Standard
+הערות: רוויה, היעלמות אפסים.
+\end_layout
+
+\begin_layout Subsection*
+התאבכות סדקים
+\end_layout
+
+\begin_layout Standard
+שני סדקים.
+ גרף עם התאמה
+\end_layout
+
+\begin_layout Standard
+הרבה סדקים.
+ גרף עם התאמה.
+\end_layout
+
+\begin_layout Standard
+טבלה של גדלים גיאומטריים לפי תוצאות המדידה, והגדלים הידועים.
+ תראו כמה שאנחנו טובים.
+\end_layout
+
+\begin_layout Standard
+תמונה משהו דו ממדי >>>???<<<
+\end_layout
+
+\begin_layout Standard
+גרפים מספרים
+\end_layout
+
+\begin_layout Subsection*
+הולוגרפיה
+\end_layout
+
+\begin_layout Standard
+תמונה תמונה תמונה
+\end_layout
+
+\begin_layout Standard
+גרפים
 \end_layout
 
 \end_body
