@@ -1,0 +1,14 @@
+remarks
+
+sensor amp - log or lin?
+
+calibrate
+angle - slope
+angle 0
+
+log:
+acum_loc - 1 closest to sensors 2 middle 3 most fur away
+
+
+L = 62.8 cm +- 0.1 cm # from mask to sensors
+wave_length = 632.8 nm # Helium Neon Laser
