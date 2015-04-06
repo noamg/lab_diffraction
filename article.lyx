@@ -91,7 +91,7 @@
  מתמטי פשוט:
 \begin_inset Formula 
 \[
-\psi(\vec{r,}t)=A\exp(\vec{k}\cdot\vec{r}-\omega t)\Rightarrow E(\vec{r,}t)=Re(\psi(\vec{r,}t))
+\psi(\vec{r,}t)=A\exp(\vec{k}\cdot\vec{r}-\omega t+\phi_{0})\Rightarrow E(\vec{r,}t)=Re(\psi(\vec{r,}t))
 \]
 
 \end_inset
@@ -112,8 +112,20 @@
 \begin_inset Formula $c$
 \end_inset
 
-מהירות האור בתווך, הם מקושרים ביניהם לפי יחס הדיספרסיה 
-\begin_inset Formula $\omega=|\vec{k|\cdot c}$
+מהירות האור בתווך, הם מקושרים ביניהם לפי יחס הדיספרסיה , 
+\begin_inset Formula $\phi_{0}$
+\end_inset
+
+פאזה התחלתית.
+\end_layout
+
+\begin_layout Standard
+גל כדורי סביב הראשית:
+\begin_inset Formula 
+\[
+\psi(\vec{r},t)=A\exp(kr-\omega t+\phi_{0})
+\]
+
 \end_inset
 
 
@@ -124,7 +136,7 @@
 \begin_inset Formula $I\propto<\psi^{2}>_{T}$
 \end_inset
 
-, במקרה של גל מישורי: 
+, במקרה של גל מישורי מונוכרומטי: 
 \begin_inset Formula $I_{\lambda}\propto A^{2}$
 \end_inset
 
@@ -138,16 +150,89 @@
 \end_layout
 
 \begin_layout Standard
-התאבכות משני מקורות.
- ציור סינוסים קקה
-\end_layout
-
-\begin_layout Subsection*
-עקיפה, פרנל? פרנהופר!
+התאבכות היא סופר פוזיציה של גלים, במקרה זה גלים אלקטרומגנטיים.
+ כלומר, יצירה של גל אחד ע"י כמה גלים אחרים.
+ מקרה מעניין ונפוץ הוא כאשר לכל הגלים המעורבים בהתאבכות תדר יציב לאורך הזמן
+ )מונוכרומטי(, ושהתדרים שלהם שווים זה לזה )קוהרנטיים(.
+ בתנאים אלו, עצמת הגל בכל נקודה במרחב קבועה בזמן, ואנחנו מקבלים תבנית עצמה
+ מרחבית שנקראת תבנית התאבכות.
+ במקרה זה, המרכיב הזמני במערכת לא רלוונטי, וניתן לתאר את המקורות לפי האמפליטודה
+ שלהם והפאזה היחסית שלהם זה ביחס לזה.
 \end_layout
 
 \begin_layout Standard
-בלה בלה
+למשל, התאבכות של שני גלים מישוריים מונוכרומטיים קוהרנטיים בעולם חד ממדי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\psi_{j}=A_{j}\exp(kx-\omega t+\phi_{j})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+<<< להשלים
+\end_layout
+
+\begin_layout Subsection*
+עקיפה, ועיקרון הויכנס פרנל
+\end_layout
+
+\begin_layout Standard
+עקרון הויגנס קובע שניתן להתייחס לכל נק' בחזית גל מישורי כמקור גל כדורי חדש
+ – גל משני.
+ (חזית הגל = כל הנקודות שהגל מגיע אליהן ברגע מסוים).
+ לכן, גם בגל בודד יש תופעת התאבכות עם עצמו.
+ כשגל עובר דרך מחסום קטן, בסדר גודל של אורך הגל, הגל מתפזר ו'נפתח' אחרי
+ המחסום – כל נק' שפוגעת במחסום היא מקור לגל חדש שמתפשט.
+ תופעה זו נקראת עקיפה.
+ כמו כן, נוצרת תבנית התאבכות של הגלים המשניים הללו
+\end_layout
+
+\begin_layout Subsection*
+קירוב פרנהופר - קירוב המסך הרחוק
+\end_layout
+
+\begin_layout Standard
+<<< תמונה התאבכות שני מקורות נקודתיים.
+\end_layout
+
+\begin_layout Standard
+<<< תמונה התאבכות 
+\begin_inset Formula $N$
+\end_inset
+
+מקורות נקודתיים.
+\end_layout
+
+\begin_layout Standard
+<<< תמונה התאבכות דרך סדק.
+\end_layout
+
+\begin_layout Standard
+<<< תיאור אנך מקבילים בלאגנים קירוב פרנהופר
+\end_layout
+
+\begin_layout Standard
+כדי לתאר את תמונת ההתאבכות של גלים שעוברים דרך סדק קטן ופוגעים במשטח (קיר)
+ נתבונן בעוצמה של הגל בכל נקודה על הקיר.
+ נשתמש בעקרון הויגנס ונתייחס לכל נק' בגל שעובר את הסדק כאל מקור גל משני,
+ שמאופיין ע"י הזווית בינו לבין האנך.
+ ואז, אם נתבונן בנק' מסוימת על הקיר, הגל שיגיע אליה יהיה סכום (סופרפוזיציה)
+ של כל הגלים המשניים הללו! כל הגלים הללו יצאו מאותו מקור, ולכן יש להם אותה
+ אמפליטודה ואותה תדירות.
+ אך מכיוון שהם עברו דרך שונה, יש ביניהם הפרש פאזה, ולכן הם יוצרים תבנית
+ התאבכות.
+\end_layout
+
+\begin_layout Standard
+<<< צפי תיאורטי שני סדקים, הרבה סדקים, סדק רחב.
+ פשוט נוסחאות.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -155,38 +240,35 @@
 \end_layout
 
 \begin_layout Standard
-תמונה חרטא ברטא
+תמונה חרטא ברטא מתוך האתר 
 \end_layout
 
 \begin_layout Standard
-צפי ניסוי יאנג )
-\numeric on
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-סדקים(, הרבה סדקים, דו ממד
+\begin_inset Formula 
+\[
+http://www.thefouriertransform.com/applications/diffraction2.php
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכל לתאר את מערך המקורות של גלי אור בעזרת פונקציה.
+\end_layout
+
+\begin_layout Standard
+תחת קירוב פרנהופר, תמונת ההתאבכות היא פוריה של מערך המקורות מופעל על ...
+\end_layout
+
+\begin_layout Standard
+מסביר לנו את ההבדל בין סדק צר לרחק, בעזרת משפט הקונבולוציה.
+\end_layout
+
+\begin_layout Standard
+<<<?? פוריה דו ממדי.
+ באופן דומה
 \end_layout
 
 \begin_layout Subsection*
@@ -198,7 +280,26 @@
 \end_layout
 
 \begin_layout Standard
-כמו שרואים באיור <<<
+<<< איור המערכת
+\end_layout
+
+\begin_layout Standard
+המערכת מורכבת מלייזר )מסוג 
+\begin_inset Formula $Ne-He$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda=632.8[nm]$
+\end_inset
+
+(, המשדר אלומה הפוגעת במערך סדקים )אותו ניתן להחליף(.
+ האור העובר את מערך הסדקים עובר התאבכות, ונמדד ע"ׁי מד עוצמת אור )שנע על
+ זרוע(.
+ )ראה איור >>><<<(.
+ זווית המדידה של הזרוע נתונה לפי מתח הנמדד על נגד מסוים במערכת, ובתחילת
+ הניסוי ביצענו כיול של המתחים על הנגד לזווית )ראה נספח(.
+ בסיכומו של דבר: בניסוי מודדים את תמונת ההתאבכות הדו ממדית של מערך סדקים
+ רצוי.
 \end_layout
 
 \begin_layout Standard
