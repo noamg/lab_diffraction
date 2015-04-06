@@ -81,11 +81,56 @@
 \end_layout
 
 \begin_layout Standard
-בלה בלה
+אור הוא גל אלקטרומגנטי - הפרעה בשדה האלקטרומגנטי המתפשטת במרחב לפי משוואת
+ הגלים: 
+\begin_inset Formula $\frac{\partial^{2}\psi}{\partial t^{2}}=c^{2}\nabla^{2}\psi$
+\end_inset
+
+.
+ גל הפותר את המשוואה ניתן להצגה כסופר פוזיציה של גלים מישוריים, שלהם תיאור
+ מתמטי פשוט:
+\begin_inset Formula 
+\[
+\psi(\vec{r,}t)=A\exp(\vec{k}\cdot\vec{r}-\omega t)\Rightarrow E(\vec{r,}t)=Re(\psi(\vec{r,}t))
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-נוסחא אקספוננט
+כאשר 
+\begin_inset Formula $\vec{k}$
+\end_inset
+
+הוא מספר הגל, 
+\begin_inset Formula $\omega$
+\end_inset
+
+התדירות הזוויתית של הגל, 
+\begin_inset Formula $c$
+\end_inset
+
+מהירות האור בתווך, הם מקושרים ביניהם לפי יחס הדיספרסיה 
+\begin_inset Formula $\omega=|\vec{k|\cdot c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עצמת הגל היא שטף האנרגיה שנושא איתו הגל: 
+\begin_inset Formula $I\propto<\psi^{2}>_{T}$
+\end_inset
+
+, במקרה של גל מישורי: 
+\begin_inset Formula $I_{\lambda}\propto A^{2}$
+\end_inset
+
+.
+ באור תנודת הגל בזמן מהירה עבור אמצעי המדידה הקיימים, ולכן ניתן לעשות מדידות
+ רק ע"ס מדידות של עצמת גל בנקודות שונות.
 \end_layout
 
 \begin_layout Subsection*
