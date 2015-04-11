@@ -113,12 +113,14 @@ plt.title("intensity pattern - two slits")
 plt.legend(loc='best')
 
 #%%
-address = "25.txt"
+#grating
+
+address = "26.txt"
 wave_length = 632.8 * 10 ** (-3) # um
 angle, intensity_v = read_dscope_no_header(address)
 
-def multiple_slits(theta, w_over_wave_length, d_over_wave_length, scale, shift):
-    N = 4
+def multiple_narrow_slits(theta, d_over_wave_length, scale, shift):
+
     return scale ** 2 * np.sinc((theta - shift) * w_over_wave_length) ** 2 * np.sin(N * np.pi * d_over_wave_length * theta) ** 2 * np.sin(np.pi * d_over_wave_length * theta) ** (-2)
 
 """
@@ -135,12 +137,28 @@ shift = opt_params[3]
 w_over_wave_length_error = opt_errors[0,0]
 """
 
+
 plt.errorbar(angle, intensity_v, intensity_error, angle_error, "*", label="data")
 plt.xlabel("angle[rad]")
 plt.ylabel("intensity [AU]")
-plt.title("intensity pattern - two slits")
+plt.title("intensity pattern - multiple slits")
 
 #plt.plot(angle, sinc_cos_square(angle, w_over_wave_length_manual, d_over_wave_length_manual, 1, 0), label="mock")
 #plt.plot(angle, sinc_cos_square(angle, w_over_wave_length, d_over_wave_length, scale, shift), label=r"model:sinc$^2$($\frac{w}{\lambda}\theta$)$cos^2(\pi \frac{d}{\lambda}\theta)$")
 
+
+picks = [couple[0] for couple in plt.ginput(n=0)]
+plt.vlines(picks, 0, 1, label="peaks")
 plt.legend(loc='best')
+
+d_over_wave_length = np.mean(np.diff(picks))
+d_over_wave_length_error = np.std(np.diff(picks))
+
+delta_theta_main_lobe = 0.056 - 0.052 # manual
+N_out = 2 / delta_theta_main_lobe / d_over_wave_length
+beam_width = N_out * d_over_wave_length * wave_length
+
+print d_over_wave_length
+print d_over_wave_length_error
+print N_out
+print beam_width
