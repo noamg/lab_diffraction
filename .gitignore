@@ -2,3 +2,4 @@
 *~
 external_materials/
 data/
+*.pyc
