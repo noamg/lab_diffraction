@@ -699,7 +699,120 @@ U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
 
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/holo-set.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+מערכת ניסוי הולוגרפיה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מערכת הניסוי מורכבת מלייזר, שאת האלומה שלו מכוונים לציר האופטי איתו עובדים
+ בעזרת שתי מראות.
+ לאחר מכן הקרן עוברת ב-ּ
+\lang english
+Spatial Filter
+\lang hebrew
+, עדשה ו-
+\lang english
+pinhole
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמסנן מהגל תדרים מרחביים גבוהים - "ליכלוכים".
+ היציאה מה-
+\lang english
+pinhole
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מהווה מקור נקודתי, ולכן האור מתפשט ממנה כדורית )לא איזוטרופית(.
+ ה-
+\lang english
+pinhole
+\lang hebrew
+ נמצא במוקד של עדשה מרכזת שאחריה מתקבל גל מישורי שמאיר את האובייקט ומגיע
+ יחד עם האור שמוחזר מהאובייקט לחיישן המצלמה.
+\end_layout
+
+\begin_layout Standard
+תחילה, כבדיקת שפיות, השתמשנו בלוחית נושא עם שתי שריטות ייחודיות על שתי פאותיה
+ בתור אובייקט, כאשר עובי הלוחית ידוע ממדידה בעזרת קליבר.
+\end_layout
+
+\begin_layout Standard
+לאחר מכן לקחנו עלה כותרת, קילפנו ממנו שכבה בעזרת סלוטייפ, והשתמשנו בפיסה
+ הדקה הזו בתור אובייקט.
+ המטרה הייתה לקבל הפרדה של השכבות השונות שמרכיבות את הפיסה.
+ 
 \end_layout
 
 \begin_layout Part*
@@ -1045,7 +1158,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-איכות התמונות / מידת ההפרדה לא הספיקו לקבלת תוצאה מספקת לעלה הכותרת.
+תוצאות לא מספקות.
  כפי שניתן לראות בתמונות >>איקס עד וואי<<, לא ניתן לזהות הבדלים ניכרים דיו
  במישורים במרחק של
 \family roman
@@ -1396,6 +1509,19 @@ status open
 
 \begin_layout Subsection*
 הולוגרפיה
+\end_layout
+
+\begin_layout Standard
+ייתכן ונדרש עומק שדה קטן יותר במדידה של לוחית הנושא.
+\end_layout
+
+\begin_layout Standard
+במדידה של עלה הכותרת סביר להניח שלא עבר מספיק מקרן הרפרנס ולכן התנאי בפיתוח
+ של 
+\begin_inset Formula $S\ll R$
+\end_inset
+
+ לא מתקיים.
 \end_layout
 
 \begin_layout Part*
