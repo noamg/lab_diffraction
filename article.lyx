@@ -388,6 +388,217 @@ f=A\cdot rect(x-d)
 רקע רלוונטי להולוגרפיה
 \end_layout
 
+\begin_layout Standard
+מעיקרון הויכנס-פרנל נוכל להניח שלו היתה לנו את כל האינפורמציה על גל במקום
+ וזמן מסויימים, אזי יש לנו את המידע על הגל בכל מקום וזמן )פשוט על ידי קידום
+ של גל כדורי - סימטרי לחזרה בזמן(.
+ לכן, אם יש לנו מידע על אוסף של גלים, נוכל לחשב את מצבם בכל מקום וזמן.
+\end_layout
+
+\begin_layout Standard
+מכיוון שכל המידע על גל כולל גם את הפאזה שלו, שלא ניתנת למדידה לגלי אור על
+ ידי כלים בני ימינו, נראה שלא ניתן ליישם רעיון זה לגלים אלקטרומגנטיים בתדרי
+ אור נראה.
+ למזלנו, אם נעבוד בתדר בודד )אור מונוכרומטי(, על ידי איבוך של הגל שמעניין
+ אותנו עם גל נוסף בעל פאזה ידועה נוכל לקבל מידע על הפאזה של גל העניין מעוצמת
+ ההארה שתתקבל - תבנית ההתאבכות של שני הגלים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/in-line_Ref&Sig.PNG
+	lyxscale 30
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+סכימה של מערך תיעוד הולוגרפי - אור בפאזה קבועה )גל מישורי(, 
+\lang english
+R
+\lang hebrew
+, נסכם עם אור שמגיע מהאובייקט,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+S
+\lang hebrew
+, ופוגע בסרט צילום/ חיישן מצלמה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהמשך לאיור >><< מתקבלת על המסך תבנית התאבכות שעוצמתה בכל נקודה על המסך
+ היא 
+\begin_inset Formula $I\left(x,y\right)=\left|R\left(x,y\right)+S\left(x,y\right)\right|^{2}=\left|R\right|^{2}+\left|S\right|^{2}+RS*+R*S$
+\end_inset
+
+.
+ אם נכפול ב-
+\begin_inset Formula $R*$
+\end_inset
+
+ נקבל 
+\begin_inset Formula 
+\[
+R*I=\left|R\right|^{2}\left(R+S\right)*+R*^{2}S+R*\left|S\right|^{2}\approx\left|R\right|^{2}\left(R+S\right)*+R*^{2}S
+\]
+
+\end_inset
+
+כאשר הנחנו ש-
+\begin_inset Formula $S\ll R$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והביטוי 
+\begin_inset Formula $R*^{2}S$
+\end_inset
+
+ מבטא גל שמתפזר ולכן ייצור הפרעה קטנה יחסית שמפוזרת על פני התמונה.
+ ואם נציב גל מונוכרומטי נקבל 
+\begin_inset Formula $I\approx C\left(1+Ae^{i\phi\left(x,y\right)}\right)$
+\end_inset
+
+ , כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+C
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+קבועים ו-
+\begin_inset Formula $\phi$
+\end_inset
+
+ הפאזה של גל האובייקט.
+ וקיבלנו שהעוצמה מקרבת )עדי כדי קבוע כפלי וחיבורי( את האות )המלא, כולל פאזה!(
+ מהאובייקט.
+\end_layout
+
+\begin_layout Standard
+עתה נרצה לקדם )אחורה( את הכל לפי הויכנס-פרנל
+\end_layout
+
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
@@ -787,15 +998,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-במציאה ידנית של התמונות ה"מפוקסות" )איורים 
+במציאה ידנית של התמונות ה"מפוקסות" )איורים >>
 \begin_inset Formula $x\, y$
 \end_inset
 
-, כאשר ההבדל קשה לזיהוי, אך באיור 
+<<, כאשר ההבדל קשה לזיהוי, אך באיור >>
 \begin_inset Formula $z$
 \end_inset
 
- בנספח ניתן לראות את ההפרש בין התמונות( נמצא הפרש של 
+<< בנספח ניתן לראות את ההפרש בין התמונות( נמצא הפרש של 
 \begin_inset Formula $0.2\pm0.02$
 \end_inset
 
@@ -803,7 +1014,353 @@ status open
 \begin_inset Formula $0.17\pm0.01$
 \end_inset
 
- מ"מ
+ מ"מ.
+\end_layout
+
+\begin_layout Subsubsection*
+עלה כותרת
+\end_layout
+
+\begin_layout Standard
+איכות התמונות / מידת ההפרדה לא הספיקו לקבלת תוצאה מספקת לעלה הכותרת.
+ כפי שניתן לראות בתמונות >>איקס עד וואי<<, לא ניתן לזהות הבדלים ניכרים דיו
+ במישורים במרחק של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+50
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מיקרון, הפרדה שנדרשת לזיהוי חלקים בעלה הכותרת.
+ זאת על אף שההפרדה הצפויה היא בסדר גודל של כ-
+\numeric on
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מיקרון.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/flower-thin_4.jpg
+	lyxscale 20
+	scale 15
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+תמונה מקורית - מישור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ החלק בתמונה עליו התבצע העיבוד מוקף במסגרת
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/flower-thin_4_1.bmp
+	lyxscale 30
+	scale 20
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+מישור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+38.00
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ"מ מהמצלמה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/flower-thin_4_6.bmp
+	lyxscale 30
+	scale 20
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+פאה שניה בפוקוס - מישור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+38.05
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ"מ מהמצלמה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
