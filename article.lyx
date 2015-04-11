@@ -714,41 +714,170 @@ U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U
 התאבכות סדקים
 \end_layout
 
-\begin_layout Standard
-סדק יחיד
+\begin_layout Subsubsection*
+סדק יחיד:
 \end_layout
 
 \begin_layout Standard
-גרף רווי.
- התאמת עקומה.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/single_slit_curv_fit_8.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ניתוח תבנית ההתאבכות של סדק יחיד.
+ מדידה:
+\begin_inset Formula $\frac{w}{\lambda}=$
+\end_inset
+
+, תיאורטי: 
+\begin_inset Formula $\frac{w}{\lambda}=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שני סדקים:
 \end_layout
 
 \begin_layout Standard
-גרף לא רווי.
- התאמת עקומה.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/dual_slit_curv_fit_14.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ניתוח תבנית ההתאבכות של סדק יחיד.
+ מדידה:
+\begin_inset Formula $\frac{w}{\lambda}=$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{d}{\lambda}=$
+\end_inset
+
+, תיאורטי: 
+\begin_inset Formula $\frac{w}{\lambda}=$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{d}{\lambda}=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-שני סדקים.
- גרף עם התאמה
+הרבה סדקים:
 \end_layout
 
 \begin_layout Standard
-הרבה סדקים.
- גרף עם התאמה.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/multiple_slits_26.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ניתוח תבנית ההתאבכות של מערך מרובה סדקים.
+ מדידה: 
+\begin_inset Formula $\frac{d}{\lambda}=$
+\end_inset
+
+, תיאורטי: 
+\begin_inset Formula $\frac{d}{\lambda}=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 טבלה של גדלים גיאומטריים לפי תוצאות המדידה, והגדלים הידועים.
  תראו כמה שאנחנו טובים.
-\end_layout
-
-\begin_layout Standard
-תמונה משהו דו ממדי >>>???<<<
-\end_layout
-
-\begin_layout Standard
-גרפים מספרים
 \end_layout
 
 \begin_layout Subsection*
