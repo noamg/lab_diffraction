@@ -24,11 +24,12 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -43,6 +44,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -61,15 +66,15 @@
 \begin_body
 
 \begin_layout Title
-<<<התאבכות
+עלי כותרת
 \end_layout
 
 \begin_layout Author
-דן וקסלר, נועם גביש, בהנחיית <<<
+דן וקסלר, נועם גביש, בהנחיית גדי מינץ )ואיתמר קולווין(
 \end_layout
 
 \begin_layout Abstract
-בלה בלה
+>>>בלה בלה<<<
 \end_layout
 
 \begin_layout Part*
@@ -290,7 +295,34 @@ A_{tot}^{2}=A_{1}^{2}+A_{2}^{2}+2A_{1}A_{2}cos(\phi_{1}-\phi_{2})
  אבל בעזרת עיקרון זה, נבחן את הגל ברגע שבו הוא פוגע במחסום, ונבצע את ההתאבכות
  רק של נקודות בחזית הגל שלא נחסמות ע"י המחסום.
  למשל, כשגל עובר דרך חור קטן, בסדר גודל של אורך הגל, בתחום המרחב שאחרי החור,
- הגל מתפזר ו"נפתח" )ראה איור(.
+ הגל מתפזר ו"נפתח" )ראה איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+(.
  תופעה זו נקראת עקיפה.
 \end_layout
 
@@ -305,25 +337,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/diffraction_slit_simple.png
 	lyxscale 40
-	scale 40
+	scale 80
 
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
+\begin_inset Caption
 
 \begin_layout Plain Layout
+עקיפה - גל עובר מחסום
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -333,7 +362,7 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-קירוב פרנהופר - קירוב המסך הרחוק
+קירוב פראונהופר - קירוב המסך הרחוק
 \end_layout
 
 \begin_layout Standard
@@ -347,25 +376,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/fraunhofer_diffraction_geometry.jpeg
+	lyxscale 150
+	scale 90
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename images/fraunhofer_diffraction_geometry.jpeg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
+תיאור גיאומטרי של עקיפה תחת קירוב פראונהופר
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -403,7 +429,7 @@ status open
 2
 \numeric off
  לדוגמא( המתקבלת על מסך רחוק ) 
-\begin_inset Formula $L\lambda>>d^{2}$
+\begin_inset Formula $D\lambda>>a^{2}$
 \end_inset
 
 (.
@@ -416,9 +442,9 @@ status open
  )התאבכות( של הגלים הכדוריים הבוקעים מהנקודות שאינן חסומות.
  זוהי התאבכות קוהרנטית, והעצמה המתקבלת תלויה בהפרש הדרכים האופטיות בין המקורות
  השונים.
- תחת קירוב המסך הרחוק )קירוב פרנהופר( הישרים המחברים את המקורות השונים לנקודת
- המדידה כמעט מקבילים, מה שנותן הפרש דרכים לפי 
-\begin_inset Formula $\Delta r=d\cdot sin(\theta)$
+ תחת קירוב המסך הרחוק )קירוב פראונהפר( הישרים המחברים את המקורות השונים
+ לנקודת המדידה כמעט מקבילים, מה שנותן הפרש דרכים לפי 
+\begin_inset Formula $\Delta r=a\cdot sin(\theta)$
 \end_inset
 
 
@@ -472,8 +498,52 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $N\rightarrow\infty$
+\end_inset
+
+ הביטוי האחרון מתקרב ל- 
+\begin_inset Formula $comb\left(\frac{d}{\lambda}\theta\right)$
+\end_inset
+
+ עם רוחב דלתאות פרופורציוני ל-
+\begin_inset Formula $\frac{1}{N}$
+\end_inset
+
+, כאשר 
+\begin_inset Formula $comb$
+\end_inset
+
+ היא פונ' מסרק
+\end_layout
+
 \begin_layout Subsubsection*
-קירוב פרנהופר פוריה
+תיאור התאבכות פראונהופר באמצעות טרנספורם פוריה
 \end_layout
 
 \begin_layout Standard
@@ -514,13 +584,13 @@ s(x)=A\cdot rect(x-d)
 \end_layout
 
 \begin_layout Standard
-תחת קירוב פרנהופר מקבלים שתמונת ההתאבכות קשורה בהתמרת פוריה של מערך המקורות:
+תחת קירוב פראונהפר מקבלים שתמונת ההתאבכות קשורה בהתמרת פוריה של מערך המקורות:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\psi(\theta,L)=\mathcal{F}(s)(\frac{1}{\lambda}sin(\theta))
+\psi(\theta,L)=\left[\mathcal{F}(s)\right](\frac{1}{\lambda}sin(\theta))
 \]
 
 \end_inset
@@ -531,7 +601,7 @@ s(x)=A\cdot rect(x-d)
 \begin_layout Standard
 הצגת תמונת ההתאבכות בתור התמרת פוריה, מאפשרת ניתוח של תמונת ההתאבכות של
  מערך סדקים רחבים באמצעות משפט הקונבולוציה: 
-\begin_inset Formula $\mathcal{F}(f*g)=\mathcal{F}(f)\cdot\mathcal{F}(g)$
+\begin_inset Formula $\mathcal{F}(f\circledast g)=\mathcal{F}(f)\cdot\mathcal{F}(g)$
 \end_inset
 
 .
@@ -540,7 +610,7 @@ s(x)=A\cdot rect(x-d)
 \end_layout
 
 \begin_layout Subsection*
-רקע רלוונטי להולוגרפיה
+הולוגרפיה
 \end_layout
 
 \begin_layout Standard
@@ -580,11 +650,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-סכימה של מערך תיעוד הולוגרפי - אור בפאזה קבועה )גל מישורי(, 
+סכמה של מערך תיעוד הולוגרפי - גל רפרנס, פאזה קבועה )גל מישורי(, 
 \lang english
 R
 \lang hebrew
-, נסכם עם אור שמגיע מהאובייקט,
+, נסכם עם גל האובייקט,
 \family roman
 \series medium
 \shape up
@@ -629,8 +699,34 @@ S
 \end_layout
 
 \begin_layout Standard
-בהמשך לאיור >><< מתקבלת על המסך תבנית התאבכות שעוצמתה בכל נקודה על המסך
- היא 
+בהמשך לאיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ מתקבלת על המסך תבנית התאבכות שעוצמתה בכל נקודה על המסך היא 
 \begin_inset Formula $I\left(x,y\right)=\left|R\left(x,y\right)+S\left(x,y\right)\right|^{2}=\left|R\right|^{2}+\left|S\right|^{2}+RS*+R*S$
 \end_inset
 
@@ -781,12 +877,52 @@ U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U
 
 \end_layout
 
+\begin_layout Standard
+כאשר השתמשנו במשפט הקונבולוציה במעבר הלפני אחרון.
+\end_layout
+
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
 
+\begin_layout Subsection*
+התאבכות
+\end_layout
+
 \begin_layout Standard
-<<< איור המערכת
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/diffrac-set.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+מערכת ניסוי התאבכות
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בניסוי מודדים את תמונת ההתאבכות הדו ממדית של מערך סדקים רצוי.
+ בחנו התאבכות דרך סדק יחיד, זוגות סדקים, ומערך מרובה סדקים.
 \end_layout
 
 \begin_layout Standard
@@ -801,19 +937,41 @@ U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U
 (, המשדר אלומה הפוגעת במערך סדקים )אותו ניתן להחליף(.
  האור העובר את מערך הסדקים עובר התאבכות, ונמדד ע"י מד עוצמת אור )שנע על
  זרוע(.
- )ראה איור >>><<<(.
+ )ראה איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+(.
  זווית המדידה של הזרוע נתונה לפי מתח הנמדד על נגד מסוים במערכת, ובתחילת
  הניסוי ביצענו כיול של המתחים על הנגד לזווית )ראה נספח(.
  המדידה מתקיימת במרחק של 
 \begin_inset Formula $L\approx1[m]$
 \end_inset
 
-שבו קירוב פרנהופר הוא מצוין.
-\end_layout
-
-\begin_layout Standard
-בסיכומו של דבר: בניסוי מודדים את תמונת ההתאבכות הדו ממדית של מערך סדקים
- רצוי.
+שבו קירוב פראונהפר הוא מצוין.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -824,11 +982,11 @@ U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U
 אנחנו קובעים את הגבר המערכת בשתי דרכים:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 צמצם מול הגלאי, משפיע על רזולוצית הזווית, ועל כמות האור המגיעה לגלאי.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 בחירת הגבר ברכיב הגברה במערכת.
 \end_layout
 
@@ -836,17 +994,6 @@ U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U
 לכל מערך סדקים ביצענו שני סוגי מדידות: מדידות בהגבר גבוה, בהן יש רזולוציה
  טובה על האפסים של תבנית ההתאבכות אך יש רוויה של עצמה )כלומר, כל העצמה מעל
  רף מסוים נראית כאילו היא המקסימום(, ומדידות בהגבר נמוך, בהן אין רוויה.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $V$
-\end_inset
-
-כיול של זווית בלאגנים כמו שרואים בנספח לשים גרף רגרסיה
-\end_layout
-
-\begin_layout Standard
-בניסוי בחנו התאבכות דרך סדק יחיד, זוגות סדקים, ומערך מרובה סדקים.
 \end_layout
 
 \begin_layout Subsection*
@@ -863,6 +1010,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/holo-set.png
+	scale 50
 
 \end_inset
 
@@ -888,13 +1036,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-מערכת הניסוי מורכבת מלייזר, שאת האלומה שלו מכוונים לציר האופטי איתו עובדים
- בעזרת שתי מראות.
+מערכת הניסוי מורכבת מלייזר )מסוג 
+\begin_inset Formula $Ne-He$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda=612[nm]$
+\end_inset
+
+(, שאת האלומה שלו מכוונים לציר האופטי איתו עובדים בעזרת שתי מראות.
  לאחר מכן הקרן עוברת ב-ּ
 \lang english
 Spatial Filter
 \lang hebrew
-, עדשה ו-
+: עדשה ו-
 \lang english
 pinhole
 \family roman
@@ -921,7 +1076,7 @@ pinhole
 \uwave default
 \noun default
 \color inherit
-שמסנן מהגל תדרים מרחביים גבוהים - "ליכלוכים".
+שמסננים מהגל תדרים מרחביים גבוהים - "ליכלוכים".
  היציאה מה-
 \lang english
 pinhole
@@ -972,10 +1127,6 @@ pinhole
 
 \begin_layout Part*
 תוצאות
-\end_layout
-
-\begin_layout Standard
-הערות: רוויה, היעלמות אפסים.
 \end_layout
 
 \begin_layout Subsection*
@@ -1038,6 +1189,10 @@ status open
 \end_layout
 
 \begin_layout Standard
+<<<גודל אלומה
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1092,7 +1247,7 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 הרבה סדקים:
 \end_layout
 
@@ -1141,11 +1296,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-טבלה של גדלים גיאומטריים לפי תוצאות המדידה, והגדלים הידועים.
- תראו כמה שאנחנו טובים.
 \end_layout
 
 \begin_layout Subsection*
@@ -1210,8 +1360,31 @@ status open
 \noun default
 \color inherit
 0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
 \numeric off
-.
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- חיישן המצלמה.
  החלק בתמונה עליו התבצע העיבוד מוקף במסגרת
 \end_layout
 
@@ -1251,7 +1424,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-פאה ראשונה בפוקוס - מישור
+פאה ראשונה של הלוחית בפוקוס - מישור
 \family roman
 \series medium
 \shape up
@@ -1341,7 +1514,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-פאה שניה בפוקוס - מישור
+פאה שניה של הלוחית בפוקוס - מישור
 \family roman
 \series medium
 \shape up
@@ -1418,15 +1591,61 @@ status open
 \end_layout
 
 \begin_layout Standard
-במציאה ידנית של התמונות ה"מפוקסות" )איורים >>
-\begin_inset Formula $x\, y$
-\end_inset
-
-<<, כאשר ההבדל קשה לזיהוי, אך באיור >>
-\begin_inset Formula $z$
-\end_inset
-
-<< בנספח ניתן לראות את ההפרש בין התמונות( נמצא הפרש של 
+במציאה ידנית של התמונות ה"מפוקסות" )איורים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10-11
+\numeric off
+, כאשר ההבדל קשה לזיהוי, אך באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+15
+\numeric off
+ בנספח ניתן לראות את ההפרש בין התמונות( נמצא הפרש של 
 \begin_inset Formula $0.2\pm0.02$
 \end_inset
 
@@ -1443,8 +1662,34 @@ status open
 
 \begin_layout Standard
 תוצאות לא מספקות.
- כפי שניתן לראות בתמונות >>איקס עד וואי<<, לא ניתן לזהות הבדלים ניכרים דיו
- במישורים במרחק של
+ כפי שניתן לראות בתמונות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+13-14
+\numeric off
+, לא ניתן לזהות הבדלים ניכרים דיו במישורים במרחק של
 \family roman
 \series medium
 \shape up
@@ -1852,16 +2097,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement o
-overhang 0col%
-width "50col%"
+\begin_inset Float figure
+wide false
+sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1888,7 +2127,11 @@ status open
 \end_inset
 
 ע"ס מדידת המתח על נגד.
- כמצופה, מתקבל גרף לינארי.
+ כמצופה, מתקבל גרף ליניארי.
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
