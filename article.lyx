@@ -591,12 +591,39 @@ C
 \end_inset
 
  הפאזה של גל האובייקט.
- וקיבלנו שהעוצמה מקרבת )עדי כדי קבוע כפלי וחיבורי( את האות )המלא, כולל פאזה!(
- מהאובייקט.
+ וקיבלנו שהעוצמה מקרבת )עד כדי קבוע כפלי וחיבורי ואוסילציות ב-
+\begin_inset Formula $\omega$
+\end_inset
+
+( את האות )המלא, כולל פאזה!( מהאובייקט.
 \end_layout
 
 \begin_layout Standard
-עתה נרצה לקדם )אחורה( את הכל לפי הויכנס-פרנל
+עתה נרצה לקדם )אחורה - חזרה למקור( את הכל לפי הויכנס-פרנל )כאשר 
+\begin_inset Formula $r'=\sqrt{\left(x-x'\right)^{2}+\left(y-y'\right)^{2}+d^{2}},\, r=\sqrt{x^{2}+y^{2}+d^{2}}$
+\end_inset
+
+ו-
+\begin_inset Formula $k=\frac{2\pi}{\lambda}$
+\end_inset
+
+(:
+\begin_inset Formula 
+\[
+U\left(x,y,d\right)=\int dx'dy'U\left(x',y'\right)\frac{e^{-ikr'}}{\lambda r'}=U\left(x,y\right)\circledast\frac{e^{-ikr}}{\lambda r}=\ldots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ldots=\mathcal{F}^{-1}\left(\mathcal{F}\left(U\left(x,y\right)\right)\cdot\mathcal{F}\left(\frac{e^{-ikr}}{\lambda r}\right)\right)=\mathcal{F}^{-1}\left(\overset{\sim}{U}\left(k_{x},k_{y}\right)\cdot e^{-i\sqrt{k^{2}-k_{x}^{2}-k_{y}^{2}}}\right)
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
@@ -671,6 +698,10 @@ C
 מערכת הולוגרפיה
 \end_layout
 
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Part*
 תוצאות
 \end_layout
@@ -722,14 +753,6 @@ C
 
 \begin_layout Subsection*
 הולוגרפיה
-\end_layout
-
-\begin_layout Standard
-תמונה תמונה תמונה
-\end_layout
-
-\begin_layout Standard
-גרפים
 \end_layout
 
 \begin_layout Standard
@@ -1197,7 +1220,7 @@ status open
 \begin_inset Graphics
 	filename images/flower-thin_4_1.bmp
 	lyxscale 30
-	scale 20
+	scale 18
 
 \end_inset
 
@@ -1287,7 +1310,7 @@ status open
 \begin_inset Graphics
 	filename images/flower-thin_4_6.bmp
 	lyxscale 30
-	scale 20
+	scale 18
 
 \end_inset
 
@@ -1381,6 +1404,7 @@ status open
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
