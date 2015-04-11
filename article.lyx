@@ -189,11 +189,56 @@
 \end_layout
 
 \begin_layout Standard
-<<< להשלים
+\begin_inset Formula 
+\[
+\psi_{tot}=\psi_{1}+\psi_{2}=A_{tot}\exp(kx-\omega t+\phi_{tot})
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-<<< הפרש דרכים.
+\begin_inset Formula 
+\[
+A_{tot}^{2}=A_{1}^{2}+A_{2}^{2}+2A_{1}A_{2}cos(\phi_{1}-\phi_{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפרש דרכים אופטי )עבור מקורות נקודתיים(: בבעיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ דו או תלת ממדית, הפאזה של הגל 
+\begin_inset Formula $\psi_{j}$
+\end_inset
+
+ בנקודת המבחן 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+ תלויה במרחק ממקור הגל לנקודת המבחן.
+ כאמור, טיב ההתאבכות נקבע לפי הפאזה היחסית של הגלים, ולכן נקבע לפי הפרש
+ הדרכים.
+ עבור זוג מקורות נקודתיים הפרש הפאזה יהיה: 
+\begin_inset Formula $\delta=\phi_{1}-\phi_{2}+k(|\vec{r}-\vec{r_{1}|}-|\vec{r}-\vec{r_{2}|)}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -245,8 +290,46 @@
  אבל בעזרת עיקרון זה, נבחן את הגל ברגע שבו הוא פוגע במחסום, ונבצע את ההתאבכות
  רק של נקודות בחזית הגל שלא נחסמות ע"י המחסום.
  למשל, כשגל עובר דרך חור קטן, בסדר גודל של אורך הגל, בתחום המרחב שאחרי החור,
- הגל מתפזר ו"נפתח" )ראה איור >>><<<(.
+ הגל מתפזר ו"נפתח" )ראה איור(.
  תופעה זו נקראת עקיפה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/diffraction_slit_simple.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -254,28 +337,72 @@
 \end_layout
 
 \begin_layout Standard
-<<< תמונה התאבכות שני מקורות נקודתיים.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-<<< תמונה התאבכות 
-\begin_inset Formula $N$
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/fraunhofer_diffraction_geometry.jpeg
+	lyxscale 40
+	scale 40
+
 \end_inset
 
-מקורות נקודתיים.
+
 \end_layout
 
-\begin_layout Standard
-<<< תמונה התאבכות דרך סדק.
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-<<< תיאור אנך מקבילים בלאגנים קירוב פרנהופר
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 כעת נרצה לנתח את תמונת ההתאבכות של גל שפוגע במערך סדקים מסוים )ראה איור
- >>><<< לדוגמא( המתקבלת על מסך רחוק ) 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ לדוגמא( המתקבלת על מסך רחוק ) 
 \begin_inset Formula $L\lambda>>d^{2}$
 \end_inset
 
@@ -290,7 +417,11 @@
  זוהי התאבכות קוהרנטית, והעצמה המתקבלת תלויה בהפרש הדרכים האופטיות בין המקורות
  השונים.
  תחת קירוב המסך הרחוק )קירוב פרנהופר( הישרים המחברים את המקורות השונים לנקודת
- המדידה כמעט מקבילים, מה שנותן הפרש דרכים לפי >>>נוסחא<<<
+ המדידה כמעט מקבילים, מה שנותן הפרש דרכים לפי 
+\begin_inset Formula $\Delta r=d\cdot sin(\theta)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -298,34 +429,51 @@
 \end_layout
 
 \begin_layout Standard
-שני סדקים צרים מאוד <<<
+שני סדקים צרים מאוד במרחק 
+\begin_inset Formula $d$
+\end_inset
+
+: 
+\begin_inset Formula $I\propto cos^{2}(\pi\frac{d}{\lambda}\theta)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-מערך סדקים צרים מאוד <<<
+סדק רחב ברוחב 
+\begin_inset Formula $w$
+\end_inset
+
+: 
+\begin_inset Formula $I\propto sinc^{2}(\frac{w}{\lambda}\theta)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-סדק רחב <<<
+מערך 
+\begin_inset Formula $N$
+\end_inset
+
+סדקים צרים מאוד במרחק 
+\begin_inset Formula $d$
+\end_inset
+
+ : 
+\begin_inset Formula $\frac{sin(N\cdot\pi\frac{d}{\lambda}\theta)}{sin(\pi\frac{d}{\lambda}\theta)})^{2}$
+\end_inset
+
+
+\begin_inset Formula $I\propto($
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
 קירוב פרנהופר פוריה
-\end_layout
-
-\begin_layout Standard
-תמונה חרטא ברטא מתוך האתר 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-http://www.thefouriertransform.com/applications/diffraction2.php
-\]
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -342,7 +490,7 @@ http://www.thefouriertransform.com/applications/diffraction2.php
  כך למשל שני סדקים צריך מתוארים לפי:
 \begin_inset Formula 
 \[
-f=A(\delta(x-\frac{1}{2}d)+\delta(x+\frac{1}{2}d))
+s(x)=A(\delta(x-\frac{1}{2}d)+\delta(x+\frac{1}{2}d))
 \]
 
 \end_inset
@@ -357,7 +505,7 @@ f=A(\delta(x-\frac{1}{2}d)+\delta(x+\frac{1}{2}d))
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f=A\cdot rect(x-d)
+s(x)=A\cdot rect(x-d)
 \]
 
 \end_inset
@@ -366,22 +514,29 @@ f=A\cdot rect(x-d)
 \end_layout
 
 \begin_layout Standard
-תחת קירוב פרנהופר מקבלים שתמונת ההתאבכות היא פוריה של מערך המקורות הפועל
- על ___
+תחת קירוב פרנהופר מקבלים שתמונת ההתאבכות קשורה בהתמרת פוריה של מערך המקורות:
 \end_layout
 
 \begin_layout Standard
-נוסחא: >>><<<
+\begin_inset Formula 
+\[
+\psi(\theta,L)=\mathcal{F}(s)(\frac{1}{\lambda}sin(\theta))
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-תובנה זו מסבירה את ההבדל בין תבנית ההתאבכות המתקבלת משני סדקים צרים לשני
- סדקים רחבים בעזרת משפט הקונבולוציה>>><<<.
-\end_layout
+הצגת תמונת ההתאבכות בתור התמרת פוריה, מאפשרת ניתוח של תמונת ההתאבכות של
+ מערך סדקים רחבים באמצעות משפט הקונבולוציה: 
+\begin_inset Formula $\mathcal{F}(f*g)=\mathcal{F}(f)\cdot\mathcal{F}(g)$
+\end_inset
 
-\begin_layout Standard
-<<<?? פוריה דו ממדי.
- באופן דומה
+.
+ זאת כיוון שמערך סדקים רחבים מתואר לפי קונבולוציה של סדק רחב עם מערך סדקים
+ צרים.
 \end_layout
 
 \begin_layout Subsection*
@@ -1571,7 +1726,48 @@ status open
 \end_layout
 
 \begin_layout Standard
-כיול זווית ומתח.
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/calibration_of_angle_measurement.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כיול של הזווית 
+\begin_inset Formula $\theta$
+\end_inset
+
+ע"ס מדידת המתח על נגד.
+ כמצופה, מתקבל גרף לינארי.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
