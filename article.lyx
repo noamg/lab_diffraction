@@ -1080,10 +1080,10 @@ status open
 \end_inset
 
 (, שאת האלומה שלו מכוונים לציר האופטי איתו עובדים בעזרת שתי מראות.
- לאחר מכן הקרן עוברת ב-ּ
-\lang english
-Spatial Filter
-\lang hebrew
+ לאחר מכן הקרן עוברת בתוך 
+\begin_inset Formula $spatial-filter$
+\end_inset
+
 : עדשה ו-
 \lang english
 pinhole
