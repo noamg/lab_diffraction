@@ -44,9 +44,14 @@ plt.title("intensity pattern - single slit")
 plt.plot(angle, sinc_square(angle, w_over_wave_length, scale, shift), label=r"model:sinc$^2$($\frac{w}{\lambda}\theta$)")
 
 plt.legend(loc='best')
+print w_over_wave_length
+print w_over_wave_length_error
+print w / wave_length
 #%%
 IS_REMOVE_SATURATION = False
 address = "14.txt"
+w = 40
+d = 0.25 * 10 ** 3
 wave_length = 632.8 * 10 ** (-3) # um
 angle, intensity_v = read_dscope_no_header(address)
 if IS_REMOVE_SATURATION:
@@ -67,6 +72,7 @@ d_over_wave_length = opt_params[1]
 scale = opt_params[2]
 shift = opt_params[3]
 w_over_wave_length_error = opt_errors[0,0]
+d_over_wave_length_error = opt_errors[1,1]
 
 
 plt.errorbar(angle, intensity_v, intensity_error, angle_error, "*", label="data")
@@ -78,6 +84,12 @@ plt.title("intensity pattern - two slits")
 plt.plot(angle, sinc_cos_square(angle, w_over_wave_length, d_over_wave_length, scale, shift), label=r"model:sinc$^2$($\frac{w}{\lambda}\theta$)$cos^2(\pi \frac{d}{\lambda}\theta)$")
 
 plt.legend(loc='best')
+print w_over_wave_length
+print w_over_wave_length_error
+print w / wave_length
+print d_over_wave_length
+print d_over_wave_length_error
+print d / wave_length
 
 #%%
 address = "21.txt"
@@ -116,6 +128,7 @@ plt.legend(loc='best')
 #grating
 
 address = "26.txt"
+d = 1.0 / 82 * 10 ** 3
 wave_length = 632.8 * 10 ** (-3) # um
 angle, intensity_v = read_dscope_no_header(address)
 
@@ -151,8 +164,8 @@ picks = [couple[0] for couple in plt.ginput(n=0)]
 plt.vlines(picks, 0, 1, label="peaks")
 plt.legend(loc='best')
 
-d_over_wave_length = np.mean(np.diff(picks))
-d_over_wave_length_error = np.std(np.diff(picks))
+d_over_wave_length = 1.0 / np.mean(np.diff(picks))
+d_over_wave_length_error = np.std(np.diff(picks)) * d_over_wave_length ** 2
 
 delta_theta_main_lobe = 0.056 - 0.052 # manual
 N_out = 2 / delta_theta_main_lobe / d_over_wave_length
@@ -160,5 +173,6 @@ beam_width = N_out * d_over_wave_length * wave_length
 
 print d_over_wave_length
 print d_over_wave_length_error
+print d / wave_length
 print N_out
 print beam_width

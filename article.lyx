@@ -1169,11 +1169,11 @@ status open
 \begin_layout Plain Layout
 ניתוח תבנית ההתאבכות של סדק יחיד.
  מדידה:
-\begin_inset Formula $\frac{w}{\lambda}=$
+\begin_inset Formula $\frac{w}{\lambda}=39.674\pm0.007$
 \end_inset
 
 , תיאורטי: 
-\begin_inset Formula $\frac{w}{\lambda}=$
+\begin_inset Formula $\frac{w}{\lambda}=31.605$
 \end_inset
 
 
@@ -1186,10 +1186,6 @@ status open
 
 \begin_layout Subsubsection*
 שני סדקים:
-\end_layout
-
-\begin_layout Standard
-<<<גודל אלומה
 \end_layout
 
 \begin_layout Standard
@@ -1222,21 +1218,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-ניתוח תבנית ההתאבכות של סדק יחיד.
+ניתוח תבנית ההתאבכות של סדק יחיד )הדגימה רוויה - כל הערכים מעל ערך מסוים
+ מקבלים את ערך המקסימום(.
  מדידה:
-\begin_inset Formula $\frac{w}{\lambda}=$
+\begin_inset Formula $\frac{w}{\lambda}=51.1\pm0.9$
 \end_inset
 
 , 
-\begin_inset Formula $\frac{d}{\lambda}=$
+\begin_inset Formula $\frac{d}{\lambda}=365\pm0.2$
 \end_inset
 
 , תיאורטי: 
-\begin_inset Formula $\frac{w}{\lambda}=$
+\begin_inset Formula $\frac{w}{\lambda}=63.2$
 \end_inset
 
 , 
-\begin_inset Formula $\frac{d}{\lambda}=$
+\begin_inset Formula $\frac{d}{\lambda}=395.1$
 \end_inset
 
 
@@ -1283,16 +1280,33 @@ status open
 \begin_layout Plain Layout
 ניתוח תבנית ההתאבכות של מערך מרובה סדקים.
  מדידה: 
-\begin_inset Formula $\frac{d}{\lambda}=$
+\begin_inset Formula $\frac{d}{\lambda}=20.2\pm0.9$
 \end_inset
 
 , תיאורטי: 
-\begin_inset Formula $\frac{d}{\lambda}=$
+\begin_inset Formula $\frac{d}{\lambda}=19.3$
 \end_inset
 
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בניתוח תבנית התאבכות מרובת סדקים, יכלנו לחשב גם את רוחב האלומה.
+ על סמך מדידת הרוחב הזוויתי 
+\begin_inset Formula $\Delta\theta$
+\end_inset
+
+של כל שיא ולפי 
+\begin_inset Formula $N\cdot\frac{d}{\lambda}=\frac{2}{\Delta\theta}$
+\end_inset
+
+ קיבלנו שרוחב אלומת הלייזר הוא 
+\begin_inset Formula $beam-width=0.316\pm0.001[mm]$
 \end_inset
 
 
